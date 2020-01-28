@@ -90,6 +90,18 @@
     - geany
     - geany-plugins
     - kdevelop
+- name: "Fonts"
+  description: "Fonts"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - adobe-source-sans-pro-fonts
+    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-inconsolata
+    - ttf-liberation
+    - ttf-ubuntu-font-family
 - name: "Games"
   description: "Games"
   critical: false
@@ -114,6 +126,13 @@
     - nomacs
     - pinta
     - ristretto
+- name: "Fun"
+  description: "Fun"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-meta-fun
 - name: "Internet"
   description: "Internet"
   critical: false
@@ -196,8 +215,16 @@
     - arc-icon-theme
     - arcolinux-arc-themes-nico-git
     - faba-icon-theme
+    - gnome-icon-theme
     - moka-icon-theme
+    - numix-circle-arc-icons-git
+    - numix-circle-icon-theme-git
+    - numix-gtk-theme-git
+    - openbox-themes-pambudi-git
+    - oxy-neon
+    - paper-icon-theme
     - papirus-icon-theme
+    - xcursor-simpleandsoft
 - name: "Utilities"
   description: "Utilities"
   critical: false
@@ -205,10 +232,21 @@
   selected: false
   packages:
     - baobab
+    - catfish
+    - evince
+    - glances
+    - glxinfo
     - grsync
+    - gtop
+    - gufw
+    - hddtemp
+    - lm_sensors
+    - powertop
+    - simple-scan
     - timeshift
-    - arcolinux-meta-utilities
-    - arcolinux-meta-fun
+    - vnstat
+    - wttr
+    - youtube-dl
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"
   critical: false
